@@ -2,8 +2,6 @@ name: demo-action
 
 on:
   workflow_dispatch:
-  issues:
-    types: [opened]
 
 jobs:
   build:
